@@ -6,5 +6,5 @@ The software templates create a new source and gitops deployment repositories wi
 
 ## Repositories
 
-![image](https://github.com/user-attachments/assets/662db10b-289e-4641-b941-eb1aae0de345)
+![image](https://github.com/user-attachments/assets/6e64ce5d-7e1e-4c2c-933c-a1c7e1371a88)
 
