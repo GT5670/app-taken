@@ -6,17 +6,15 @@ The software templates create a new source and gitops deployment repositories wi
 
 ## Repositories
 
-The source code for your application can be found in [https://github.com/GT5670/app-taken ](https://github.com/GT5670/app-taken ).
- 
-The gitops repository, which contains the kubernetes manifests for the application can be found in 
-[https://github.com/GT5670/app-taken-gitops ](https://github.com/GT5670/app-taken-gitops ) 
-
-## Application namespaces 
-
-The default application will be found in the following namespaces. Applications can be deployed into unique namespaces or multiple software templates can also bet generated into the same group namespaces.  
-
-|  Namespace   |  Description   |  
-| -------- | -------- |   
-| **rhtap-app-development** | The default application during development. Every build will be deployed to this namespace for testing. | 
-| **rhtap-app-stage** | The staging namespace for this application. Promotion from development to stage is manual via an update to the [gitops repository](https://github.com/GT5670/app-taken-gitops ) in the components/app-taken/overlays/prod directory |  
-| **rhtap-app-prod** | The production namespace for this application. Promotion from stage to production is manual via an update to the [gitops repository](https://github.com/GT5670/app-taken-gitops ) in the components/app-taken/overlays/prod directory | 
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+No model was supplied, defaulted to sshleifer/distilbart-cnn-12-6 and revision a4f8f3e (https://huggingface.co/sshleifer/distilbart-cnn-12-6).
+Using a pipeline without specifying a model name and revision in production is not recommended.
+ * Debugger is active!
+ * Debugger PIN: 987-445-175
+127.0.0.1 - - [01/Aug/2024 14:15:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2024 14:15:13] "GET /static/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [01/Aug/2024 14:15:25] "POST /analyze HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2024 14:15:25] "GET /static/style.css HTTP/1.1" 304 -
